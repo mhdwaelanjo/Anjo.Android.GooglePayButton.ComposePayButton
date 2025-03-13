@@ -4,7 +4,7 @@
 Google Pay Button Compose Pay Button Android SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
 
-[![NuGet](https://buildstats.info/nuget/Anjo.Android.GooglePayButton.ComposePayButton)](https://www.nuget.org/packages/Anjo.Android.GooglePayButton.ComposePayButton)
+[![NuGet Version](https://img.shields.io/nuget/v/Anjo.Android.GooglePayButton.ComposePayButton)](https://www.nuget.org/packages/Anjo.Android.GooglePayButton.ComposePayButton) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.GooglePayButton.ComposePayButton)](https://github.com/mhdwaelanjo/Anjo.Android.GooglePayButton.ComposePayButton/blob/master/LICENSE.txt)
 
 An Android library that provides a Jetpack Compose wrapper on top of the Google Pay Button API.
  

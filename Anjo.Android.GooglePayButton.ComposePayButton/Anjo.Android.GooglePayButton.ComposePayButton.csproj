@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
+		<TargetFrameworks>net9.0-android;net8.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.GooglePayButton.ComposePayButton</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
-		<FileVersion>1.0.0</FileVersion>
-		<Version>1.0.0</Version>
+		<PackageVersion>1.1.0</PackageVersion>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
+		<FileVersion>1.1.0</FileVersion>
+		<Version>1.1.0</Version>
 		<Title>Anjo Android Google Pay Button Compose Pay Button SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.GooglePayButton.ComposePayButton</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - "com.google.pay.button:compose-pay-button"</Description>
-		<PackageReleaseNotes>Google Pay Button Compose Pay Button SDK v1.0.0</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
+		<PackageReleaseNotes>Google Pay Button Compose Pay Button SDK v1.1.0</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, com.google.pay.button, compose-pay-button, jetpack-compose, google-pay</PackageTags>
 		<Summary>An Android library that provides a Jetpack Compose wrapper on top of the Google Pay Button API.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
@@ -43,13 +43,13 @@
 		</None>
 	</ItemGroup>
   <ItemGroup>
-    <None Remove="Jars\compose-pay-button-1.0.0.aar" />
+    <None Remove="Jars\compose-pay-button-1.1.0.aar" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.Compose.Material" Version="1.5.4" />
-    <PackageReference Include="Xamarin.AndroidX.Compose.UI" Version="1.5.4" />
-    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.12.0.4" />
-    <PackageReference Include="Xamarin.GooglePlayServices.Wallet" Version="119.2.1" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.8.20" />
+    <PackageReference Include="Xamarin.AndroidX.Compose.Material" Version="1.7.8" />
+    <PackageReference Include="Xamarin.AndroidX.Compose.UI" Version="1.7.8" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.15.0.2" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Wallet" Version="119.4.0.4" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.21.2" />
   </ItemGroup>
 </Project>
