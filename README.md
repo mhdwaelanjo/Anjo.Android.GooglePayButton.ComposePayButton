@@ -8,9 +8,7 @@ Google Pay Button Compose Pay Button Android SDK for .NET for Android (formerly 
 
 An Android library that provides a Jetpack Compose wrapper on top of the Google Pay Button API.
  
-<p align="center">
-    <img src="https://github.com/google-pay/compose-pay-button/blob/main/pay-buttons.png" width="250" alt="Pay button variations">
-</p>
+![Pay button variations](https://raw.githubusercontent.com/google-pay/compose-pay-button/refs/heads/main/pay-buttons.png)
 
 ---------------------------------
 ### How To Use
